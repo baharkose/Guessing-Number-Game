@@ -15,6 +15,15 @@ body{
 }
 
 form{
-    text-align: center;
+    position: relative;
+    border: 5px solid red;
+    /* text-align: center; */
+}
+
+form::before{
+   position: absolute;
+    content: "❓";
+    right: 0;
+    top: 0;
 }
 

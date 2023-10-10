@@ -7,7 +7,7 @@ function karsilastir() {
   let sonuc = document.getElementById("sonuc");
   let tahminDizi = document.getElementById("dizi");
 
-    tahminDizi.textContent += `${tahmin} `;
+    tahminDizi.textContent += `${tahmin}`;
 
   let hak = 5;
  
