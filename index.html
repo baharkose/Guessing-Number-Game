@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Guess The Number</title>
 </head>
 <body>
     <div class="container">
     <form action="">
+        <div class="center">
         <h1>Guess The Number</h1>
-        <input type="text" id="tahmin">
-        <button type="button" onclick="karsilastir();">Guess It</button>
+        <input type="text" id="tahmin" placeholder="Enter a number">
+        
+        <button type="button" onclick="karsilastir();">Guess It</button></div>
         <div id="sonuc">Result: </div>
         <div id="dizi">Predicted Numbers:</div>
         <div id="hak">Life Count: </div>
